@@ -1,6 +1,11 @@
 const express = require('express')
 
 const app = express()
+
+//reg view engine
+app.set('view engine', 'ejs')
+//app.set('views', 'myviews')
+
 // listen for requests
 app.listen(3000)
 
